@@ -1,9 +1,16 @@
+import './Article.css'
+import {Card} from 'react-bootstrap'
 const Article = ({ article }) => {
   return (
-    <div className='article'>
-      <h3>{article.content}</h3>
-      <p>{article.author}</p>
-    </div>
+    <Card className="article">
+      <Card.Img variant="top" src={article.img} />
+      <Card.Body>
+        <Card.Title>{article.title}</Card.Title>
+      </Card.Body>
+      <Card.Footer>
+      <small className="text-muted">Written by: {article.author}</small>
+    </Card.Footer>
+    </Card>
   )
 }
 
