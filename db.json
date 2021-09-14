@@ -4,13 +4,36 @@
       "id": 1,
       "title": "firsttitle",
       "author": "Disstream",
-      "content": "testtestetsetsteststestesteststes"
+      "content": "testtestetsetsteststestesteststes",
+      "img": "https://varuste.net/tiedostot/1/kuva/tuote/600/11385.jpg"
     },
     {
       "id": 2,
       "title": "2137",
       "author": "Papiez",
-      "content": "Habemus papam"
+      "content": "Habemus papam",
+      "img": "https://lh3.googleusercontent.com/Cn_oqsmFcqkoIPu083h8xAfNU51Ufht0B9asuoEdUJ44DtKyX0uzLCToatqaw4_-oqoK1sBTv0tmJkYT1hYKoQ=s400"
+    },
+    {
+      "id": 3,
+      "title": "!!!wazne",
+      "author": "ja",
+      "content": "witam witam z tej strony tajger",
+      "img": "https://varuste.net/tiedostot/1/kuva/tuote/600/11385.jpg"
+    },
+    {
+      "id": 4,
+      "title": "INFO",
+      "author": "jaa",
+      "content": "XDDDDDDDDDDDDDDDDDDDDD",
+      "img": "https://varuste.net/tiedostot/1/kuva/tuote/600/11385.jpg"
+    },
+    {
+      "id": 5,
+      "title": "INFO2",
+      "author": "jaa",
+      "content": "XDDD123213DDDDDDDDD",
+      "img": "https://varuste.net/tiedostot/1/kuva/tuote/600/11385.jpg"
     }
   ]
 }

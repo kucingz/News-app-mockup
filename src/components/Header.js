@@ -2,7 +2,7 @@ import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#home">News portal</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
