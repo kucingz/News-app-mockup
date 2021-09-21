@@ -25,7 +25,7 @@ const ArticlesList = ({ articles }) => {
             width="1100" height="400"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h3>Second slide labelxd</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
