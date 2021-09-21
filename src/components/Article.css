@@ -3,8 +3,9 @@
   text-align: center;
   display: flex;
   align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  background-color:rgb(255, 255, 255);
+  margin-left: 16%;
+  margin-right: 16%;
 }
 
 .article {
@@ -20,5 +21,9 @@
 
 .card-body {
   background-color: rgba(0, 0, 0, 0.8);
-  color: rgb(251, 255, 50)
+  color: rgb(251, 255, 50);
+}
+
+.body{
+  background-color: rgb(119, 119, 119);
 }

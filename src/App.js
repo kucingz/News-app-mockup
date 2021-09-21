@@ -1,6 +1,10 @@
 import { useState, useEffect} from 'react'
 import Header from './components/Header'
 import Articles from './components/ArticlesList'
+import { BrowserRouter as Router, Route} from 'react-router-dom'
+import ArticleDetails from './components/ArticleDetails'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
 
   const [articles, setArticles] = useState([])
@@ -22,10 +26,17 @@ function App() {
     return data
   }
   return (
-    <>
-    <Header />
-    <Articles articles={articles} />
-    </>
+    <Router>
+      <>
+      <Header />
+      <Route path='/' exact render={(props) => (
+        <>
+          <Articles articles={articles} />
+        </>
+      )} />
+      <Route path='/details/:id' exact component={ArticleDetails} />
+      </>
+    </Router>
   );
 }
 

@@ -1,0 +1,51 @@
+.carousel-caption{
+  background-color:rgba(34, 18, 18, 0.733);
+  margin-right: -165px;
+  margin-left: -165px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+h3{
+  font-size:30px;
+  color:white;
+  font-weight: 900;
+  font-family: Courier;
+}
+
+.carousel{
+  margin-top: 80px;
+  max-width: 100%;
+}
+
+.card-group{
+  margin:auto;
+  background-color: rgba(128, 128, 128, 0.13);
+}
+
+.whole{
+  margin: auto;
+  max-width: 1100px;
+}
+
+.carousel-control-prev{
+  background-color:rgba(34, 18, 18, 0.733);
+  width: 60px;
+  height: 40px;
+  margin-top: 160px;
+  opacity: 1;
+}
+
+.carousel-control-next{
+  background-color:rgba(34, 18, 18, 0.733);
+  width: 60px;
+  height: 40px;
+  margin-top: 160px;
+  opacity: 1;
+}
+
+.card-title {
+  font-family: Calibri;
+  font-weight: 500;
+  font-size:20px;
+}
