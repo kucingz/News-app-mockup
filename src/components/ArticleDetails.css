@@ -1,0 +1,7 @@
+.container{
+  justify-content: center;
+  text-align: center;
+  display: block;
+  align-items: center;
+  flex-wrap: wrap;
+}
