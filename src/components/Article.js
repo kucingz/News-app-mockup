@@ -14,7 +14,7 @@ const Article = ({ article }) => {
           <Card.Title>{article.title}</Card.Title>
         </Card.Body>
         <Card.Footer>
-        <small className="text-muted">Written by: {article.author}</small>
+        <small>Written by: {article.author}</small>
         </Card.Footer>
       </Card>
     </Link>
