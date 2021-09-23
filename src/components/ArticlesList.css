@@ -1,0 +1,85 @@
+.carousel-caption{
+  background-color:rgba(34, 18, 18, 0.733);
+  margin-right: -165px;
+  margin-left: -165px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+h3{
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 34px;
+  font-stretch: ultra-expanded;
+  letter-spacing: 1.2px;
+}
+
+.carousel{
+  margin-top: 80px;
+  max-width: 100%;
+}
+
+.card-group{
+  margin:auto;
+  background-color: rgba(128, 128, 128, 0.13);
+}
+
+.whole{
+  margin: auto;
+  max-width: 1100px;
+}
+
+.carousel-control-prev{
+  background-color:rgba(34, 18, 18, 0.733);
+  width: 60px;
+  height: 40px;
+  margin-top: 160px;
+  opacity: 1;
+}
+
+.carousel-control-next{
+  background-color:rgba(34, 18, 18, 0.733);
+  width: 60px;
+  height: 40px;
+  margin-top: 160px;
+  opacity: 1;
+}
+
+.card-title {
+  font-family: Arial;
+  font-weight: 600;
+  font-size: 1.5vw;
+  font-stretch: ultra-condensed;
+  margin-left: -16px;
+  margin-top: -8px;
+  margin-bottom: -10px;
+  letter-spacing: 1.2px;
+  color:black;
+}
+
+.card-footer{
+  padding: 0px;
+  font-family: Calibri;
+  font-weight: 900;
+  background-color: rgba(128, 128, 128, 0.13);
+  border: none;
+}
+
+.card-body {
+  background-color: rgba(128, 128, 128, 0.13);
+  color:rgb(255, 255, 255);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+}
+
+.card{
+  border: none;
+}
+
+.card-footer{
+   color:rgb(206, 22, 22);
+}
